@@ -10,5 +10,9 @@ public class If_Statements {
         }else {
             System.out.println("the weather today is unknown...!");
         }
+        //the following code demonstrates the use of ternary an alternative to if else statments
+        int income=120_000;
+        String classType= (income > 100_000? "Business-class" : "Economy-class");
+        System.out.println("class-type = " + classType);
     }
 }
