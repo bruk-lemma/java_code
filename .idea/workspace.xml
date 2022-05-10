@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af2bdc6a-1f50-4a45-89d5-d17cedba05ea" name="Changes" comment="the first hello world java">
+    <list default="true" id="af2bdc6a-1f50-4a45-89d5-d17cedba05ea" name="Changes" comment="added the fundamentals of primitive and reference types and the escape sequence.">
+      <change afterPath="$PROJECT_DIR$/src/Java_Arrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/hello_world_main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hello_world_main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,7 +40,14 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Java_Arrays">
+    <configuration name="Java_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Arrays" />
+      <module name="hello_world_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="hello_world_main" />
@@ -43,6 +57,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Java_Arrays" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -63,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652130441839</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added the fundamentals of primitive and reference types and the escape sequence.">
+      <created>1652144830167</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652144830167</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="the first hello world java" />
-    <option name="LAST_COMMIT_MESSAGE" value="the first hello world java" />
+    <MESSAGE value="added the fundamentals of primitive and reference types and the escape sequence." />
+    <option name="LAST_COMMIT_MESSAGE" value="added the fundamentals of primitive and reference types and the escape sequence." />
   </component>
 </project>
