@@ -22,7 +22,21 @@ public class Control_Flow {
         while(!word.equals("quit")){
             System.out.println("Enter A word..please");
             word=scanner.next();
+            if(word.equals("pass"))
+                continue; //the word continue is used to jump to the beginning of the loop.
+            if(word.equals("quit"))
+                break;    //the word break terminates the loop from execution.
             System.out.println(word);
         }
+
+        //the following code implements  do while loops in java.
+        //do while loops get executed at lest once no matter what the condition.
+        //do while loops are not used as often as while loops, but they might be used in a certain unique cases.
+
+        System.out.println("Enter A NUmber");
+        float number=scanner.nextFloat();
+        do{
+            System.out.println("the number is odd...!" +(int)number);
+        }while (number%2!=0);
     }
 }
