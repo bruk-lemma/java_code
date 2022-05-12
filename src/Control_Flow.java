@@ -38,5 +38,8 @@ public class Control_Flow {
         do{
             System.out.println("the number is odd...!" +(int)number);
         }while (number%2!=0);
+
+        //the following code demonstrates the use of the for each loop.
+
     }
 }
