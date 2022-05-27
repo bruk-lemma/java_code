@@ -40,6 +40,13 @@ public class Control_Flow {
         }while (number%2!=0);
 
         //the following code demonstrates the use of the for each loop.
+        //it is much more elegant than a for loop.
+        //thr foreach loop only works in forward does not work in reverse like a regular fo loop.
+        //and we dont have access to the index of each item, unlike for loop.
+        String [] fruits={"orange","banana","Mango","Avocado"};
+        for(String fruit:fruits){
+            System.out.println(fruit);
+        }
 
     }
 }
