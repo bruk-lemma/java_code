@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="hello_world_main:jar2" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af2bdc6a-1f50-4a45-89d5-d17cedba05ea" name="Changes" comment="added the fundamentals of primitive and reference types and the escape sequence.">
-      <change afterPath="$PROJECT_DIR$/src/Java_Arrays.java" afterDir="false" />
+    <list default="true" id="af2bdc6a-1f50-4a45-89d5-d17cedba05ea" name="Changes" comment="modified the main methode and started using oop concepts like object class and encapsulation">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/hello_world_main_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/hello_world_main_jar2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TextBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/hello_world_main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hello_world_main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modified_Mortgage_Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modified_Mortgage_Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mortgage_Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mortgage_Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +51,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Java_Arrays">
-    <configuration name="Java_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Arrays" />
-      <module name="hello_world_main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="hello_world_main" />
@@ -55,10 +66,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Methods_In_Java" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Methods_In_Java" />
+      <module name="hello_world_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Modified_Mortgage_Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Modified_Mortgage_Calculator" />
+      <module name="hello_world_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mortgage_Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mortgage_Calculator" />
+      <module name="hello_world_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="helloworld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld" />
+      <module name="hello_world_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Java_Arrays" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.helloworld" />
+        <item itemvalue="Application.Modified_Mortgage_Calculator" />
+        <item itemvalue="Application.Methods_In_Java" />
+        <item itemvalue="Application.Mortgage_Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +127,112 @@
       <option name="project" value="LOCAL" />
       <updated>1652144830167</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added fundamental of Arrays in java.">
+      <created>1652148159471</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652148159471</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added the arithmetic operation's in java and parsing variables ,explicit and implicit casting along with usage of the Math library">
+      <created>1652178441657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652178441658</updated>
+    </task>
+    <task id="LOCAL-00005" summary="demonstrate some functionalities of NUmber formatting in java.">
+      <created>1652179195316</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652179195316</updated>
+    </task>
+    <task id="LOCAL-00006" summary="show the basics of java input">
+      <created>1652180954572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652180954572</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create a mortgage calculator">
+      <created>1652183721136</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652183721136</updated>
+    </task>
+    <task id="LOCAL-00008" summary="created s simple comparison operator in java.">
+      <created>1652199235371</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652199235371</updated>
+    </task>
+    <task id="LOCAL-00009" summary="created a simple logicalOperators example java code">
+      <created>1652200854873</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652200854873</updated>
+    </task>
+    <task id="LOCAL-00010" summary="implemented basic if-else statements block">
+      <created>1652208095185</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652208095185</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added the ternary operator as an alternative to if else statements">
+      <created>1652209229210</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652209229210</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implemented the switch case another way to implement if else cases;">
+      <created>1652210131294</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1652210131294</updated>
+    </task>
+    <task id="LOCAL-00013" summary="implemented control flow using for loops and while loops.">
+      <created>1652356260974</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1652356260974</updated>
+    </task>
+    <task id="LOCAL-00014" summary="implemented control flow do while loops incorporating break and continue statements.">
+      <created>1652358132686</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1652358132686</updated>
+    </task>
+    <task id="LOCAL-00015" summary="implemented control flow do while loops incorporating break and continue statements.">
+      <created>1652358593268</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1652358593268</updated>
+    </task>
+    <task id="LOCAL-00016" summary="implemented control flow do while loops incorporating break and continue statements.">
+      <created>1653657683948</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653657683948</updated>
+    </task>
+    <task id="LOCAL-00017" summary="modified the calculator to show  payment schedule over the length of the full payment schedule.">
+      <created>1654004688001</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654004688001</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +249,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="the first hello world java" />
     <MESSAGE value="added the fundamentals of primitive and reference types and the escape sequence." />
-    <option name="LAST_COMMIT_MESSAGE" value="added the fundamentals of primitive and reference types and the escape sequence." />
+    <MESSAGE value="added fundamental of Arrays in java." />
+    <MESSAGE value="added the arithmetic operation's in java and parsing variables ,explicit and implicit casting along with usage of the Math library" />
+    <MESSAGE value="demonstrate some functionalities of NUmber formatting in java." />
+    <MESSAGE value="show the basics of java input" />
+    <MESSAGE value="create a mortgage calculator" />
+    <MESSAGE value="created s simple comparison operator in java." />
+    <MESSAGE value="created a simple logicalOperators example java code" />
+    <MESSAGE value="implemented basic if-else statements block" />
+    <MESSAGE value="added the ternary operator as an alternative to if else statements" />
+    <MESSAGE value="implemented the switch case another way to implement if else cases;" />
+    <MESSAGE value="implemented control flow using for loops and while loops." />
+    <MESSAGE value="implemented control flow do while loops incorporating break and continue statements." />
+    <MESSAGE value="modified the calculator to show  payment schedule over the length of the full payment schedule." />
+    <MESSAGE value="modified the main methode and started using oop concepts like object class and encapsulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified the main methode and started using oop concepts like object class and encapsulation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Modified_Mortgage_Calculator.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -10,15 +10,20 @@ public class Modified_Mortgage_Calculator {
         double r = (i / 100) / 12;
         double equation = (Math.pow((1 + r), (y * 12)));
         double mortgage = p * (r * equation / (equation - 1));
+        show(p, y, r, mortgage);
+
+
+    }
+
+    private static void show(double p, double y, double r, double mortgage) {
         NumberFormat currency = NumberFormat.getCurrencyInstance();
         String fullMortgage = currency.format(mortgage);
         System.out.println("MORTGAGE");
         System.out.println("---------");
         System.out.println("Monthly payment:" + fullMortgage);
-
         remaining_balance(p, y, r, currency);
-
     }
+
     private static void remaining_balance(double p, double y, double r, NumberFormat currency) {
         double payment_made=1;
         System.out.println("Payment Schedule");
@@ -29,6 +34,10 @@ public class Modified_Mortgage_Calculator {
             double B= p *(common-common2)/(common-1);
             System.out.println(currency.format(B));
             payment_made=payment_made+1;
+            if(B <=0){
+                System.out.println("Mortgage Fully paid no More debt");
+                break;
+            }
         }
     }
 
