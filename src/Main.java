@@ -15,13 +15,18 @@ public class Main {
 
         //the following implementation comes from the encapsulation part.
         var employee1 = new Employee(50,5);
-        new Employee(10000);
+        //new Employee(10000);
+        //accessing the static member in employee class including the static field and static methods.
+        System.out.println(Employee.numberOfEmployees);
+        Employee.print_Number_of_Employees();
+
         // employee1.baseSalary=5000;
         //employee1.hourlyRate=20;
 
         //the code below shows thw usage of setters and getters in java.
         employee1.setBaseSalary(1);
         employee1.setHourlyRate(70);
+
         // System.out.println(employee1.getHourlyRate());
         System.out.println(employee1.getBaseSalary());
         System.out.println(employee1.calculateWage(20));
